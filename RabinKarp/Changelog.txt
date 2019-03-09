@@ -1,0 +1,13 @@
+Rabin Karp .h
+line 15 : int finalOffset // Stores location of last occurence
+
+Rabin Karp .cpp
+
+// checks for final occurence
+line 53 if (i == N - 1) {
+				return offset;
+			}
+			else {
+				finalOffset = offset;
+				cout << "Occurence Found.";
+line 59			}
